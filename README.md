@@ -1,6 +1,48 @@
 Youtube Data Harvestinng and Warehousing
-This project empowers you to delve into the vast world of YouTube data by building a comprehensive data pipeline and interactive analysis dashboard. Here's what you'll gain:
-Harness the Power of Python Scripting: Craft efficient Python scripts to harvest valuable YouTube channel, video, playlist, and comment data using the official YouTube Data API. Streamline Data Collection: Leverage Google API keys to seamlessly retrieve the desired information from YouTube. Master Streamlit: Create a user-friendly, interactive dashboard with Streamlit, allowing users to explore the harvested data with ease. Bridge the Data Gap (SQL & MongoDB): Effectively store and manage the collected data using your choice of either a structured SQL database (e.g., PostgreSQL) or a flexible NoSQL database (e.g., MongoDB). Uncover Insights: Craft 10 insightful queries to extract meaningful information from the YouTube data. Visualize these insights within the Streamlit dashboard for an intuitive grasp. Streamlined Workflow: The project integrates seamlessly, transferring results from Python scripts to your Streamlit dashboard for a smooth user experience. Key Skills Demonstrated:
-Python Programming API Integration (YouTube Data API) Data Collection & Management (SQL &/or MongoDB) Streamlit for Interactive Data Exploration Target Audience:
-Data enthusiasts curious about YouTube data Developers seeking to build data pipelines with Python and APIs Data analysts wanting to leverage Streamlit for visualizations Additional Considerations:
-Clean Code: Ensure well-structured, documented, and maintainable code for easy understanding and future modifications. Flexibility: While the description mentions specific technologies, consider making it adaptable to other SQL/NoSQL databases or cloud platforms for broader appeal. Deployment: Briefly mention if the project includes instructions for deployment (e.g., containerization using Docker). User Experience: Emphasize the user-friendliness of the Streamlit dashboard and the potential for further customization.
+Project Title: YouTube Data Harvesting and Warehousing using SQL and Streamlit
+
+Skills Demonstrated:
+
+Python Scripting
+Data Collection using Google YouTube Data API
+Streamlit for Interactive Visualization
+API Integration
+Data Management with SQL (PostgreSQL and MongoDB)
+Domain: Social Media Analytics
+
+Project Description:
+
+This project establishes a framework for harvesting and warehousing valuable YouTube channel data, empowering you to explore and analyze it effectively. Here's a breakdown of the key components:
+
+Data Collection with Google YouTube Data API:
+
+Leverage the Google YouTube Data API to retrieve comprehensive data about YouTube channels, including channel details, videos, playlists, and comments.
+Integrate the API seamlessly within your Python code using the official client library.
+Data Warehousing with SQL:
+
+Construct a robust data warehouse using two popular SQL database systems: PostgreSQL and MongoDB.
+Design and implement well-structured tables for efficient storage of channel, video, playlist, and comment data.
+Ensure data integrity by following relational database principles for PostgreSQL and utilizing appropriate schema design for MongoDB.
+Choose PostgreSQL for its structured querying capabilities and advanced data analysis features, while MongoDB excels in handling semi-structured data like comments.
+Data Analysis and Visualization with Streamlit:
+
+Craft an interactive web application using Streamlit, a Python library that simplifies web framework development.
+Formulate ten insightful queries to extract meaningful insights from the harvested YouTube data.
+Employ Streamlit to render the query results within a user-friendly interface, enabling the visualization of answers directly within the application.
+This interactive interface allows users to explore YouTube channel data, gain valuable insights into content performance and audience engagement, and potentially even formulate new research questions.
+Repository Contents:
+
+Python code for data harvesting using the YouTube Data API
+SQL scripts for creating and populating tables in PostgreSQL and MongoDB
+Streamlit code for building the interactive web application, including logic for fetching data from the database(s) and presenting the ten pre-defined queries and their results
+Next Steps:
+
+This project lays a solid foundation for further exploration of YouTube data.
+Consider expanding the scope of data collection and analysis by incorporating additional YouTube API metrics and leveraging more sophisticated data analysis techniques.
+Explore the possibilities of integrating with other data sources for a more holistic understanding of online video content and audience behavior.
+Additional Considerations:
+
+Provide clear instructions for setting up the project, including installation guidelines and API key management.
+Employ effective commenting within the code to enhance readability and maintainability.
+Consider modularizing your code for better organization and reusability.
+By providing a comprehensive project description, well-structured code, and proper documentation, you'll create a valuable resource on GitHub for your audience and build upon your technical skills in data collection, warehousing, and visualization.
